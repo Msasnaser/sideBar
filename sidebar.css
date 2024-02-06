@@ -1,0 +1,67 @@
+
+.row{
+    height:100vh;
+    background:url(imge.webp) center center/cover no-repeat;
+}
+
+.endSide {
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    right: 80%;
+    left: 0;
+    background:black;
+    display: none;
+}
+
+.apper {
+    display: block;
+}
+.button1 svg{
+    fill: white;
+    margin: 10px;
+    width: 90px;
+}
+.about{
+    width:30%;
+    letter-spacing:2px;
+    color:white;
+    margin-left: 60px;
+}
+.about h1{
+font-size:90px;
+text-transform: uppercase;
+margin-bottom: 0;
+}
+.endSide .button2,.button1{
+    background: none;
+    text-decoration: none;
+    border: 0px;
+}
+.button2 svg {
+    width: 30px;
+    fill: #818181;
+}
+.endsideCompanant{
+display: flex;
+flex-direction: column;
+}
+.endsideCompanant a{
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 25px;
+    color: #818181;
+    display: block;
+    transition: 0.3s;
+}
+.endsideCompanant a:hover {
+    color: white;
+  }
+  .button2 svg:hover {
+    fill: white;
+  }
+.overlay {
+    filter: brightness(50%);  
+}
